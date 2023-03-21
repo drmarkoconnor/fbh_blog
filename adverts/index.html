@@ -1,0 +1,27 @@
+---
+layout: default.liquid
+title: Activities at the hub
+---
+
+<div class="container">
+	<h1 class="center">Local Trades</h1>
+	<h6>
+		(hover over the pictures to find out more about the services locally on
+		offers)
+	</h6>
+	<div class="cards">
+		{% for card in adverts.11tydata %}
+
+		<div class="card" style="background-image: url('{{ card.cardImg }}')">
+			<div class="card-title">{{ card.cardTitle }}</div>
+
+			<div class="card-contact">{{ card.cardContact }}</div>
+			<div class="card-blurb">
+				<p>{{ card.cardBlurb }}</p>
+				<p>{{ card.cardDateTimes }}</p>
+			</div>
+		</div>
+
+		{% endfor %}
+	</div>
+</div>

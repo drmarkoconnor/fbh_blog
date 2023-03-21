@@ -1,0 +1,107 @@
+[
+	{
+		"faqImg": "/assets/images/yoga_isie.jpg",
+		"faqTitle": "title",
+		"faqContact": "bookings@flaxbourtonhub.org.uk",
+		"faqQuestion": "How do I find out about availability and book?",
+		"faqAnswer": "The easiest and quickest way to view up to date availability and book is to look at our calendar of current events on our <a href=https://hallbookingonline.com/flaxbourton/calendar.php> online booking site</a>"
+	},
+	{
+		"faqImg": "/assets/images/yoga_isie.jpg",
+		"faqTitle": "title",
+		"faqContact": "bookings@flaxbourtonhub.org.uk",
+		"faqQuestion": "What is the capacity of hall?",
+		"faqAnswer": "Up to 200 people are permitted in the hall or 140 when tables and chairs are used."
+	},
+	{
+		"faqImg": "/assets/images/yoga_isie.jpg",
+		"faqTitle": "title",
+		"faqContact": "bookings@flaxbourtonhub.org.uk",
+		"faqQuestion": "What are the dimensions of the hall?",
+		"faqAnswer": "Please see <a href=https://hallbookingonline.com/flaxbourton/documentation.php> hub floor plan documentation</a>"
+	},
+	{
+		"faqImg": "/assets/images/yoga_isie.jpg",
+		"faqTitle": "title",
+		"faqContact": "bookings@flaxbourtonhub.org.uk",
+		"faqQuestion": "Can I play music in the hall?",
+		"faqAnswer": "You are very welcome to play music in the hall until 11pm."
+	},
+	{
+		"faqImg": "/assets/images/yoga_isie.jpg",
+		"faqTitle": "title",
+		"faqContact": "bookings@flaxbourtonhub.org.uk",
+		"faqQuestion": "Do you have speakers/a sound system?",
+		"faqAnswer": "We do not have speakers or a sound system at the hall."
+	},
+	{
+		"faqImg": "/assets/images/yoga_isie.jpg",
+		"faqTitle": "title",
+		"faqContact": "bookings@flaxbourtonhub.org.uk",
+		"faqQuestion": "Do you have kitchen facilities?",
+		"faqAnswer": "Yes! A full list of our kitchen facilities can be found here <a href=https://hallbookingonline.com/flaxbourton/documentation.php> hall & kitchen facilities documentation</a>"
+	},
+	{
+		"faqImg": "/assets/images/yoga_isie.jpg",
+		"faqTitle": "title",
+		"faqContact": "bookings@flaxbourtonhub.org.uk",
+		"faqQuestion": "What kitchen crockery/utensils/glasses are available?",
+		"faqAnswer": "A comprehensive list of items can be found here <a href=https://hallbookingonline.com/flaxbourton/documentation.php> crockery available documentation</a>"
+	},
+	{
+		"faqImg": "/assets/images/yoga_isie.jpg",
+		"faqTitle": "title",
+		"faqContact": "bookings@flaxbourtonhub.org.uk",
+		"faqQuestion": "How many tables and chairs are available to use?",
+		"faqAnswer": "Please see our hall & kitchen facilities list for further information"
+	},
+	{
+		"faqImg": "/assets/images/yoga_isie.jpg",
+		"faqTitle": "title",
+		"faqContact": "bookings@flaxbourtonhub.org.uk",
+		"faqQuestion": "Do you have a bar?",
+		"faqAnswer": "We do not have a bar. If you wish to sell alcohol on the premises you will need to apply for a <a href=https://www.n-somerset.gov.uk/business/licences-permits/food-alcohol-entertainment-gambling/premises-licence >temporary events licence </a> from North Somerset Council"
+	},
+	{
+		"faqImg": "/assets/images/yoga_isie.jpg",
+		"faqTitle": "title",
+		"faqContact": "bookings@flaxbourtonhub.org.uk",
+		"faqQuestion": "Can I use the outside space?",
+		"faqAnswer": "Please contact bookings@flaxbourtonhub.org to enquire. Please note that the football pitch adjacent to the hall is in use on most Saturdays for football training."
+	},
+	{
+		"faqImg": "/assets/images/yoga_isie.jpg",
+		"faqTitle": "title",
+		"faqContact": "bookings@flaxbourtonhub.org.uk",
+		"faqQuestion": "Can I view the hall? Yes!",
+		"faqAnswer": "By arrangement - please contact bookings@flaxbourtonhub.org to enquire."
+	},
+	{
+		"faqImg": "/assets/images/yoga_isie.jpg",
+		"faqTitle": "title",
+		"faqContact": "bookings@flaxbourtonhub.org.uk",
+		"faqQuestion": "Can I have a bouncy castle in the hall?",
+		"faqAnswer": "Yes. Please note that you are responsible for the safety of your guests for the duration of your hire."
+	},
+	{
+		"faqImg": "/assets/images/yoga_isie.jpg",
+		"faqTitle": "title",
+		"faqContact": "bookings@flaxbourtonhub.org.uk",
+		"faqQuestion": "Do you have rubbish/recycling facilities?",
+		"faqAnswer": "Unfortunately not. All hirers must remove all rubbish and recycling at the end of their hire."
+	},
+	{
+		"faqImg": "/assets/images/yoga_isie.jpg",
+		"faqTitle": "title",
+		"faqContact": "bookings@flaxbourtonhub.org.uk",
+		"faqQuestion": "Is there WIFI?",
+		"faqAnswer": "Yes! The login and password information will be provided on confirmation of your booking."
+	},
+	{
+		"faqImg": "/assets/images/yoga_isie.jpg",
+		"faqTitle": "title",
+		"faqContact": "bookings@flaxbourtonhub.org.uk",
+		"faqQuestion": "Do you have a projector/screen to hire?",
+		"faqAnswer": "We do not currently have this facility available"
+	}
+]

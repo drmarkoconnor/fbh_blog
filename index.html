@@ -1,0 +1,599 @@
+---
+bgImage: /assets/images/coffeediversity.jpg
+title: Flax Bourton Hub
+strapline: "Your community space"
+description: "welcome to the Flax Bourton Hub - check out the activities going on at the hub in our Whats on? section and join in - we'd love to see you - don't see anything you fancy? Why not start your own group activity? check out our subsidised rates for local residents and click below to book your activity"
+---
+<!-- description: "welcome to the Flax Bourton Hub - check out the activities going on at the hub in our Whats on? section and join in - we'd love to see you - don't see anything you fancy? Why not start your own group activity? check out our subsidised rates for local residents and click below to book your activity"-->
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+<!-- welcome to the Flax Bourton Hub - check out the activities going on at the hub in our Whats on? section and join in - we'd love to see you - don't see anything you fancy? Why not start your own group activity? check out our subsidised rates for local residents and click below to book your activity -->
+    
+    <!--====== Title ======-->
+    <title>{{ title }}</title>
+    
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+        
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+        
+    <!--====== Glide CSS ======-->
+    <link rel="stylesheet" href="assets/css/tiny-slider.css">
+        
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css">
+        
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-beta1.min.css">
+    
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+    
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets/scss/style.css">
+    
+</head>
+
+<body>
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== PRELOADER PART ENDS ======-->
+
+    <!--====== HEADER PART START ======-->
+
+    <section id="home" class="header_area">
+        <div id="header_navbar" class="header_navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img id="logo" src="{{ data.logo }}" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a class="page-scroll active" href="#home">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a  href="https://hallbookingonline.com/flaxbourton">Book</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a  href="/activities/">What's on</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#about">History</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#services">Pricing</a>
+                                    </li>
+                                    
+                                    <!-- <li class="nav-item">
+                                        <a class="page-scroll" href="#team">Team</a>
+                                    </li> -->
+                                    
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#contact">Contact</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a  href="/info/">FAQs</a>
+                                    </li>
+                                    
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- header navbar -->
+
+        <div class="header_hero">
+            <div class="single_hero bg_cover d-flex align-items-center" style="background-image: url('{{ bgImage }}')">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-md-10">
+                            <div class="hero_content text-center">
+                                <h2 class="hero_title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">{{ title }}</br> {{ strapline }}</h2>
+                                <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">{{ description }}</p>
+                                <a href="https://hallbookingonline.com/flaxbourton" class="main-btn wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">Check out what's on at the Hub</a>
+                            <div class="smile">
+<div class="smile" id="amznCharityBanner"><script type="text/javascript">(function() {var iFrame = document.createElement('iframe'); iFrame.style.display = 'none'; iFrame.style.border = "none"; iFrame.width = 310; iFrame.height = 256; iFrame.setAttribute && iFrame.setAttribute('scrolling', 'no'); iFrame.setAttribute('frameborder', '0'); setTimeout(function() {var contents = (iFrame.contentWindow) ? iFrame.contentWindow : (iFrame.contentDocument.document) ? iFrame.contentDocument.document : iFrame.contentDocument; contents.document.open(); contents.document.write(decodeURIComponent("%3Cdiv%20id%3D%22amznCharityBannerInner%22%3E%3Ca%20href%3D%22https%3A%2F%2Fsmile.amazon.co.uk%2Fch%2F1195804-0%22%20target%3D%22_blank%22%3E%3Cdiv%20class%3D%22text%22%20height%3D%22%22%3E%3Cdiv%20class%3D%22support-wrapper%22%3E%3Cdiv%20class%3D%22support%22%20style%3D%22font-size%3A%2025px%3B%20line-height%3A%2028px%3B%20margin-top%3A%2015px%3B%20margin-bottom%3A%2015px%3B%22%3ESupport%20%3Cspan%20id%3D%22charity-name%22%20style%3D%22display%3A%20inline-block%3B%22%3EFlax%20Bourton%20Hub%3C%2Fspan%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cp%20class%3D%22when-shop%22%3EWhen%20you%20shop%20at%20%3Cb%3Esmile.amazon.co.suk%2C%3C%2Fb%3E%3C%2Fp%3E%3Cp%20class%3D%22donates%22%3EAmazon%20Donates%3C%2Fp%3E%3C%2Fdiv%3E%3C%2Fa%3E%3C%2Fdiv%3E%3Cstyle%3E%23amznCharityBannerInner%7Bbackground-image%3Aurl(https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FG%2F02%2Fx-locale%2Fpaladin%2Fcharitycentral%2Fbanner-background-image._CB485923047_.png)%3Bwidth%3A302px%3Bheight%3A250px%3Bposition%3Arelative%7D%23amznCharityBannerInner%20a%7Bdisplay%3Ablock%3Bwidth%3A100%25%3Bheight%3A100%25%3Bposition%3Arelative%3Bcolor%3A%23000%3Btext-decoration%3Anone%7D.text%7Bposition%3Aabsolute%3Btop%3A20px%3Bleft%3A15px%3Bright%3A15px%3Bbottom%3A100px%7D.support-wrapper%7Boverflow%3Ahidden%3Bmax-height%3A86px%7D.support%7Bfont-family%3AArial%2Csans%3Bfont-weight%3A700%3Bline-height%3A28px%3Bfont-size%3A25px%3Bcolor%3A%23333%3Btext-align%3Acenter%3Bmargin%3A0%3Bpadding%3A0%3Bbackground%3A0%200%7D.when-shop%7Bfont-family%3AArial%2Csans%3Bfont-size%3A15px%3Bfont-weight%3A400%3Bline-height%3A25px%3Bcolor%3A%23333%3Btext-align%3Acenter%3Bmargin%3A0%3Bpadding%3A0%3Bbackground%3A0%200%7D.donates%7Bfont-family%3AArial%2Csans%3Bfont-size%3A15px%3Bfont-weight%3A400%3Bline-height%3A21px%3Bcolor%3A%23333%3Btext-align%3Acenter%3Bmargin%3A0%3Bpadding%3A0%3Bbackground%3A0%200%7D%3C%2Fstyle%3E")); contents.document.close(); iFrame.style.display = 'block';}); document.getElementById('amznCharityBanner').appendChild(iFrame); })(); </script>
+                            </div>
+                        </div>
+                            
+                            </div> <!-- hero content -->
+                        </div>
+                    </div> <!-- row -->
+                </div> <!-- container -->
+            </div> <!-- single hero -->
+        </div> <!-- header hero -->
+    </section>
+
+    <!--====== HEADER PART ENDS ======-->
+    
+
+    <!--====== Amazon Smile PART starts ======-->
+
+
+    <!--====== Amazon Smile PART ENDS ======-->
+    
+    <!--====== ABOUT PART START ======-->
+
+    <section id="about" class="pt-130">
+        <div class="about_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about_content pt-120 pb-130">
+                            <div class="section_title pb">
+                                <h4 class="title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Our History</h4>
+                                <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">
+The Flax Bourton Hub is a modern and well-equipped one storey building and associated small playing field in the North Somerset village of Flax Bourton</p><p>It is served by a dedicated service road, good footpaths and a cycle track which is part of the Sustrans national network. There is also a small children’s play area nearby</p><p>
+
+Historically, the facility was built and provided by Persimmons Builders over 20 years ago, as part of a quid pro quo arrangement with the Village resulting in the build of a medium sized housing estate which partially wraps around the field.</p><p> The Hub provides an important and contrasting community facility which balances and greatly extends opportunities for residents to pursue a range of interests, activities and sports in a pleasant environment. </p><p>
+
+The village has a strong record of promoting social events with many different activities taking place throughout the year. These are supported by residents of all ages. Prior to the Lock-down periods many of these took place at the Hub.</p> <p> The responsibility of managing the Hub has recently passed from a Community Interest Company back to the Parish Council. The Council are working with a group of local volunteers to restore and develop the facilities. A new <a href="https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5186700/charity-overview">Charitable Incorporated Organisation</a> was established on September 14th 2021 with trustees drawn from local residents. The Registered Charity Number is 1195804</p><hr>
+<p>The Hub seeks to be inclusive of our diverse community. We welcome all races, ethnicities, religions, genders, sexual orientations, disabilities, languages and ages.</p>  <p>In collaboration with the Parish Council, The Hub has recently commissioned a community consultation survey seeking views on village life generally, how the Hub and its activities might specifically be best used to improve living in Flax Bourton for all its residents. You can read a <a href="/assets/docs/Flax Bourton Community Consultation 2022.pdf">summary report here </a> or the <a href="/assets/docs/Flax Bourton Community Consultation report 2022.pdf">full report here <h6>[2Mb download] </h6></a></p>
+                                <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.6s"></p>
+                            </div> <!-- section title -->
+                            <a href="https://flaxbourtonparishcouncil.co.uk/village-hall/" class="main-btn wow fadeInUp" data-wow-duration="1.3s"
+                                data-wow-delay="0.7s">Learn More About The Council and Volunteering</a>
+                        </div> <!-- about content -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+            
+            <div class="about_image bg_cover wow fadeInLeft" data-wow-duration="1.3s" data-wow-delay="0.2s"
+                style="background-image: url(assets/images/coffeediversity.jpg)">
+                <div class="image_content">
+                    <h5 class="experience"><span>23 years inclusively </span> serving our diverse community</h5>
+                </div>
+            </div> <!-- about image -->
+        </div>
+    </section>
+
+     <!--====== FEATURES PART START ======-->
+
+    <section id="features" class="features_area pt-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center pb-25">
+                        <h4 class="title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">How To Find Us</h4>'</h4>
+                        <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9951.899406609577!2d-2.6952196!3d51.4218886!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0xe6a44ad9422402e8!2sFlax+Bourton+Village+Hall!5e0!3m2!1sen!2suk!4v1616248154507!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0px solid" allowfullscreen=""></iframe></p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-7">
+                    <div class="single_features text-center mt-30 wow fadeInUp" data-wow-duration="1.3s"
+                        data-wow-delay="0.2s">
+                        <i class="lni lni-syringe"></i>
+                        <h4 class="features_title">Covid changes</a></h4>
+                        <p>in order to keep within current government covid guidelines only our main hall is available to one hirer at this time. We hope as the situation improves to open a pop up cafe and to hire out the other meeting areas</p>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-4 col-md-7">
+                    <div class="single_features text-center mt-30 wow fadeInUp" data-wow-duration="1.3s"
+                        data-wow-delay="0.4s">
+                        <i class="lni lni-spray"></i>
+                        <h4 class="features_title">Cleaning</a></h4>
+                        <p>The kitchen and main areas will be cleaned according to government covid guidelines between each hire period </p>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-4 col-md-7">
+                    <div class="single_features text-center mt-30 wow fadeInUp" data-wow-duration="1.3s"
+                        data-wow-delay="0.6s">
+                        <i class="lni lni-trees"></i><i class="lni lni-trees"></i>
+                        <h4 class="features_title">The Sports field</a></h4>
+                        <p>Hiring the sports field only may impact on the ability to hire out the main hall ( and vice versa ) and will need to be approved by the bookings admninstrator</p>
+                    </div> <!-- single features -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== ABOUT PART ENDS ======-->
+    
+    <!--====== FEATURES PART START ======-->
+
+    <section id="services" class="features_area pt-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center pb-25">
+                        <h4 class="title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Terms and Conditions</h4>
+                        <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">You can find our full terms and conditions for hire <a href="https://hallbookingonline.com/flaxbourton/documentation.php">here</a><br>
+                        Please note some key points for all hirers </p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_features text-center mt-60 wow fadeInUp" data-wow-duration="1.3s"
+                        data-wow-delay="0.2s">
+                        <i class="lni lni-music"></i>
+                        <h4 class="features_title">Party Time</h4>
+                        <p>Why not have your party at the hub? We are licensed for music and dancing until 11pm Monday to Sunday</p>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_features text-center mt-60 wow fadeInUp" data-wow-duration="1.3s"
+                        data-wow-delay="0.3s">
+                        <i class="lni lni-users"></i>
+                        <i class="lni lni-users"></i>
+                        <i class="lni lni-users"></i>
+                        <h4 class="features_title">Noise</h4>
+                        <p>The hub is close to residents and every effort must be made to limit noise when entering or leaving the hub. Amplified music must be turned off and doors/windows closed by 11pm</p>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_features text-center mt-60 wow fadeInUp" data-wow-duration="1.3s"
+                        data-wow-delay="0.3s">
+                        <i class="lni lni-customer"></i>
+                        <i class="lni lni-share"></i>
+                        <i class="lni lni-share-alt"></i>
+                        <i class="lni lni-grow"></i>
+                        <h4 class="features_title">Toilets</h4>
+                        <p> Male and female toilet facilities are available <b>only</b> for hirers of the main hall. Users of our sports field <b>do not have access</b> routinely to the toilet facilities unless by prior arrangement. Please email bookings@flaxbourtonhub.org to enquire</p>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_features text-center mt-60 wow fadeInUp" data-wow-duration="1.3s"
+                        data-wow-delay="0.4s">
+                        <i class="lni lni-paypal"></i>
+                        <h4 class="features_title">Payments</h4>
+                        <p>You will be required to pay for your hire before your event. We will be offering Paypal for your convenience and will send you an invoice via email when the facility is active. You may be required to pay a deposit for some types of event</p>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_features text-center mt-60 wow fadeInUp" data-wow-duration="1.3s"
+                        data-wow-delay="0.2s">
+                        <i class="lni lni-unlink"></i>
+                        <i class="lni lni-windows"></i>
+                        <h4 class="features_title">Fixings</h4>
+                        <p>Please do not fix or hang anything on to the walls of the building.</p>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_features text-center mt-60 wow fadeInUp" data-wow-duration="1.3s"
+                        data-wow-delay="0.3s">
+                        <i class="lni lni-trash"></i>
+                        <i class="lni lni-spray"></i>
+                        <i class="lni lni-trash"></i>
+                        <h4 class="features_title">Cleaning up</h4>
+                        <p>Please make sure you wash up and tidy the kitchen surfaces and remove your trash after your event. This will help the deep covid clean that needs to take place after your event.</p>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single_features text-center mt-60 wow fadeInUp" data-wow-duration="1.3s"
+                        data-wow-delay="0.4s">
+                        <i class="lni lni-calendar"></i>
+                        <h4 class="features_title">Security</h4>
+                        <p>You must make sure that all windows and doors are securely locked after your event   </p>
+                    </div> <!-- single features -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== FEATURES PART ENDS ======-->
+    
+    
+    
+    <!--====== PRICING PART START ======-->
+
+    <section id="pricing" class="pricing_area pt-120 pb-130">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center pb-25">
+                        <h4 class="title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Pricing</h4>
+                        <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s"><ul>
+                        <li>Payments will be possible on this website via PayPal shortly</li>
+                        <li>You will <span style='font-weight: bolder;'>not</span> be invoiced until this facility is in place.</li><li>If you wish to use the kitchen crockery and glasses there is a supplemental charge of <span style='color:red;font-weight: bold;font-size: 1.3rem;'>£25</span> </li></ul>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-8 col-sm-10">
+                    <div class="single_pricing text-center mt-30 wow fadeInUp" data-wow-duration="1.3s"
+                        data-wow-delay="0.2s">
+                        <h4 class="pricing_title">Weekday daytime rate </h4><p>Flax Bourton Residents receive a 10% discount on all prices published here</p> 
+                        <span class="price">£16.50 / hr</span>
+                        <ul class="pricing_list">
+                            <li>Book Clubs</li>
+                            <li>Art Groups</li>
+                            <li>Writing clubs</li>
+                            <li>Handicraft</li>
+                            <br>
+                        </ul>
+                        <a href="https://hallbookingonline.com/flaxbourton/calendar.php" class="main-btn">Book Now</a>
+                    </div> <!-- single pricing -->
+                </div>
+                <div class="col-lg-4 col-md-8 col-sm-10">
+                    <div class="single_pricing text-center mt-30 active wow fadeInUp" data-wow-duration="1.3s"
+                        data-wow-delay="0.3s">
+                        <h4 class="pricing_title">Weddings & Special Occasions</h4><p class='text-white'>Exclusive usage of the Hub from Friday evening to Sunday lunchtime for one inclusive price of £499 for your special occasion. Please use the 'Book Now' button to reserve your preferred date and we will confirm your reservation via email. Please email bookings@flaxbourtonhub.org if you wish to discuss any aspects of these options</p>
+                        <span class="price">£499</span>
+                        <ul class="pricing_list">
+                            <li>Weddings</li>
+                            <li>Team Retreats and Away-Days</li>
+                            <li>Family celebrations</li>
+                            
+                        </ul>
+                        <a href="https://hallbookingonline.com/flaxbourton/calendar.php" class="mian-btn">Book Now</a>
+                    </div> <!-- single pricing -->
+                </div>
+                <div class="col-lg-4 col-md-8 col-sm-10">
+                    <div class="single_pricing text-center mt-30 wow fadeInUp" data-wow-duration="1.3s"
+                        data-wow-delay="0.4s">
+                        <h4 class="pricing_title">After 6pm & Weekends</h4><p>Flax Bourton Residents receive a 10% discount on all prices published here</p> 
+                        <span class="price">£19.50 / hr</span>
+                        <ul class="pricing_list">
+                            <li>Pilates</li>
+                            <li>Educational</li>
+                            <li>Keep fit</li>
+                            <li>Yoga</li>
+                           
+                            <br>
+                        </ul>
+                        <a href="https://hallbookingonline.com/flaxbourton/calendar.php" class="main-btn">Book Now</a>
+                    </div> <!-- single pricing -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== PRICING PART ENDS ======-->
+    
+    <!--====== TEAM PART START ======-->
+
+    <!-- <section id="team" class="team_area pt-120 pb-130">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title text-center pb-25">
+                        <h4 class="title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Meet The Team</h4>
+                        <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">We are local residents who volunteer our time and effort to make the Hub work for our community. If you would like to join us please get in touch </p>
+                    </div>
+                 </div>
+            </div> -->
+            <!-- row -->
+            <!-- <div class="row justify-content-center team_active">
+                <div class="col-lg-4 col-md-8 col-sm-10">
+                    <div class="single_team mt-30 wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                        <img src="assets/images/team-1.jpg" alt="team">
+                        
+                        <div class="team_content">
+                            <h4 class="team_name"><a href="#0">Tom Hanks.</a></h4>
+                            <p>Head Of Ideas</p>
+                            <ul class="social">
+                                <li><a href="#0"><i class="lni lni-facebook-filled"></i></a></li>
+                                <li><a href="#0"><i class="lni lni-twitter-original"></i></a></li>
+                                <li><a href="#0"><i class="lni lni-linkedin-original"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    single team -->
+                <!-- </div>
+                <div class="col-lg-4 col-md-8 col-sm-10">
+                    <div class="single_team mt-30 wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.3s">
+                        <img src="assets/images/team-2.jpg" alt="team">
+                        
+                        <div class="team_content">
+                            <h4 class="team_name"><a href="#0">Jennifer Lopez.</a></h4>
+                            <p>Treasurer</p>
+                            <ul class="social">
+                                <li><a href="#0"><i class="lni lni-facebook-filled"></i></a></li>
+                                <li><a href="#0"><i class="lni lni-twitter-original"></i></a></li>
+                                <li><a href="#0"><i class="lni lni-linkedin-original"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>  -->
+                    <!-- single team -->
+                <!-- </div>
+                <div class="col-lg-4 col-md-8 col-sm-10">
+                    <div class="single_team mt-30 wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                        <img src="assets/images/team-3.jpg" alt="team">
+                        
+                        <div class="team_content">
+                            <h4 class="team_name"><a href="#0">Donald Trump</a></h4>
+                            <p>Gone missing</p>
+                            <ul class="social">
+                                <li><a href="#0"><i class="lni lni-facebook-filled"></i></a></li>
+                                <li><a href="#0"><i class="lni lni-twitter-original"></i></a></li>
+                                <li><a href="#0"><i class="lni lni-linkedin-original"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>  -->
+                    <!-- single team -->
+                <!-- </div>
+            </div>  -->
+            <!-- row -->
+        <!-- </div>  -->
+        <!-- container -->
+    <!-- </section> -->
+
+    <!--====== TEAM PART ENDS ======-->
+    
+    <!--====== TESTIMONIAL PART START ======-->
+<h1 class="title wow fadeInUp text-center" data-wow-duration="1.3s" data-wow-delay="0.2s">Testimonials</h1>
+    <section id="testimonial" class="testimonial_area pt-130 pb-130 bg_cover" style="background-image: url(assets/images/testimonial.jpg)">
+        <div class="container">
+            
+            <div class="row justify-content-center">
+                
+                <div class="col-lg-8">
+                    <div class="testimonial_active_wrapper">
+                        
+                        <div class="testimonial_active">
+                            <div class="single_testimonial text-center">
+                                <img src="assets/images/author-1.jpg" alt="author">
+                                <h5 class="author_name">Colin Rogers</h5>
+                                <span>Local Guide</span>
+                                <p>Great place for holding a tea dance. Floor is great for "Sequence Dances". Catering facilities are second to none. Toilets are very clean.
+
+                                </p>
+                            </div>
+                            <div class="single_testimonial text-center">
+                                <img src="assets/images/author-2.jpg" alt="author">
+                                <h5 class="author_name">Laura Johnson</h5>
+                                <span>Great for a party</span>
+                                <p>Used this venue for a ceilidh dance, Had around 50 guests it was the perfect size for 5 large tables, a stage, dance floor and buffet. I arrived early and they came to open the doors and were quick coming back at the end of the night. The venue is clean and has plenty of items available to hire that you need for a party.
+                                </p>
+                            </div>
+                            <div class="single_testimonial text-center">
+                                <img src="assets/images/author-3.jpg" alt="author">
+                                <h5 class="author_name">Maggie Seager</h5>
+                                <span>Personal and Business use</span>
+                                <p>This hall has fantastic facilities, we use it every year and would highly recommend it, reasonable rates and the ease of booking is great. It is a fabulous venue suitable for both business and personal events alike..
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== TESTIMONIAL PART ENDS ======-->
+    
+
+    
+    <!--====== CONTACT PART START ======-->
+
+    <section id="contact" class="contact_area bg_cover pt-120 pb-130" style="background-image: url(assets/images/contact_bg.jpg)">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section_title section_title_2 text-center pb-25">
+                        <h4 class="title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Contact Us</h4>
+                        <p class="wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.4s"><strong>Remember </strong>to check out our <a href="/info/">FAQs page</a>  for lots of information about our facilities. If your query isn't answered there then please get in touch using the form below - We aim to respond to your message within 24-hours - please add bookings@flaxbourtonhub.org to your trusted email to avoid our messages going to your spam folder</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            
+            <form id="contact-form" name ='contact' action="assets/contact.php" method="POST" data-netlify='true' class="wow fadeInUp"
+                data-wow-duration="1.3s" data-wow-delay="0.4s">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="single_form">
+                            <input type="text" placeholder="Name" name="name" id="name" required>
+                        </div> <!-- single form -->
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single_form">
+                            <input type="email" placeholder="Email" name="email" id="email" required>
+                        </div> <!-- single form -->
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single_form">
+                            <input type="text" placeholder="Phone Number" name="number" id="number" required>
+                        </div> <!-- single form -->
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single_form">
+                            <input type="text" placeholder="Subject" name="subject" id="subject" required>
+                        </div> <!-- single form -->
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="single_form">
+                            <textarea placeholder="Message" name="message" id="message" required></textarea>
+                        </div> <!-- single form -->
+                    </div>
+                    
+                    <p class="form-message"></p>
+                    
+                    <div class="col-lg-12">
+                        <div class="single_form text-center">
+                            <button class="main-btn" type="submit">SUBMIT</button>
+                        </div> <!-- single form -->
+                    </div>
+                </div> <!-- row -->
+            </form>
+        </div> <!-- container -->
+    </section>
+
+    <!--====== CONTACT PART ENDS ======-->
+    
+    <!--====== FOOTER PART START ======-->  
+    {% include footer %}
+ <!-- <footer id="footer" class="footer_area">
+        <div class="container">
+            <div class="footer_wrapper text-center d-lg-flex align-items-left justify-content-between">
+                <p class="credit">website by <a href="mailto:dr.mark.oconnor@googlemail.com" rel="nofollow">moc</a></p> <p class="credit"><a href="https://hallbookingonline.com/admin/">Admin</a>
+                                    </p>
+                <div class="footer_social pt-15">
+                    <ul>
+                        <li><a href="#0"><i class="lni lni-facebook-original"></i></a></li>
+                        <li><a href="https://twitter.com/FlaxHub"><i class="lni lni-twitter-original"></i></a></li>
+                        <li><a href="#0"><i class="lni lni-instagram-original"></i></a></li>
+                        <li><a href="#0"><i class="lni lni-linkedin-original"></i></a></li>
+                       
+                    </ul> 
+                </div>  
+               
+            </div>
+        </div>
+    </footer> -->
+   
+
+    <!--====== FOOTER PART ENDS ======-->
+    
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->
+
+    
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.bundle-5.0.0-beta1.min.js"></script>
+    
+    <!--====== glide js ======-->
+    <script src="assets/js/tiny-slider.js"></script>
+    
+    <!--====== wow js ======-->
+    <script src="assets/js/wow.min.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+    
+</body>
+
+</html>

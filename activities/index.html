@@ -1,0 +1,46 @@
+---
+layout: default.liquid
+title: Activities at the Hub
+---
+
+<!-- <div class="news">
+	<h1>National Lottery Funding Award</h1>
+	<img src="/assets/images/digital-white-background.png" alt="" />
+	<p>
+		We are delighted to announce that in August 2021 the Flax Bourton Hub
+		received £5000 of funding from the National Lottery. We plan to use 100% of
+		this funding to keep our facilities maintained and suitable for all the
+		activities taking place at the Hub that you see shown here. We'd be
+		delighted to hear your ideas for new activities - send us your ideas at
+		<a href="mailto:bookings@flaxbourtonhub.org">bookings@flaxbourtonhub.org</a
+		>'
+	</p>
+	<p>
+		Thank you to all the National Lottery players for making this grant possible
+	</p> -->
+
+<!-- </div> -->
+
+	<h6><a href="https://hallbookingonline.com/flaxbourton" class="main-btn" >Click to view and book an activity</a></h6>
+	<!-- <h6>
+		(hover over the pictures to find out more about the services locally on
+		offers)
+	</h6> -->
+	<div class="cards">
+		{% for card in cards.11tydata %}
+
+		<div class="card" style="background-image: url('{{ card.cardImg }}')">
+			<div class="card-title">{{ card.cardTitle }}</div>
+
+			<div class="card-contact">{{ card.cardContact }}</div>
+			<div class="card-blurb">
+				<p>{{ card.cardBlurb }}</p><hr>
+				<p>{{ card.cardDateTimes }}</p>
+				<a href="http://{{ card.cardWebSite }}">{{ card.cardWebSite }}</a>
+				<a href="http://{{ card.cardFaceBook }}">{{ card.cardFaceBook }}</a>
+			</div>
+		</div>
+
+		{% endfor %}
+	</div>
+</div>

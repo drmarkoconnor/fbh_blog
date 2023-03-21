@@ -1,0 +1,15 @@
+---
+layout: default.liquid
+title: Frequently Asked Questions
+---
+<div class="faqContainer">
+<h1>Frequently Asked Questions</h1>
+
+	{% for card in faqs.11tydata %}
+	<li>
+	<div class="faqQ">
+		{{ card.faqQuestion }}</div>
+		<div class="faqA">{{ card.faqAnswer }}</div></li>
+	{% endfor %}
+</div>
+</div>

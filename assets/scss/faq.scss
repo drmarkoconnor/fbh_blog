@@ -1,0 +1,29 @@
+.faqContainer {
+	width: 70%;
+	margin: 0 auto;
+}
+.faqContainer h1 {
+	padding-bottom: 1em;
+	// margin-top: 5em;
+}
+@media (max-width: 590px) {
+	.faqContainer h1 {
+		padding-bottom: 1em;
+		margin-top: 5em;
+	}
+}
+
+.faqQ {
+	font-weight: bold;
+}
+.faqA a {
+	color: rgb(39, 65, 214);
+}
+.faqA {
+	line-height: 1.3;
+	padding-bottom: 2em;
+}
+
+.faqA a:hover {
+	text-decoration: overline;
+}
